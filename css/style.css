@@ -1,0 +1,340 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+  font-size: 15px;
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+.socialLinks {
+
+}
+
+.socialLinks p {
+  color: white;
+  font-size: 20px;
+}
+
+.headContainer {
+  height: 100%;
+  text-align: right;
+  padding-right: 250px;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.headContainer h4 {
+  font-size: 40px;
+}
+
+.headContainer p {
+  opacity: 0.8;
+}
+.headContainer a {
+  color: white;
+  opacity: 0.8;
+  font-size: 22px;
+}
+
+.headContent {
+  width: 100%;
+  height: 100%;
+}
+
+.mainContainer {
+  height: 100%;
+  width: 9999px;
+  max-width: 100%;
+  padding: 20px;
+  background-color: rgba(251,243,234,0.8);
+}
+
+.contentContainer {
+  margin: auto;
+  width: 620px;
+  max-width: 100%;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.0);
+}
+
+.contentContainer h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+.contentContainer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: rgba(0,0,0,0.6);
+}
+
+.contactContainer {
+  height: 100%;
+  width: 300px;
+  max-width: 100%;
+  padding: 1px;
+  margin: auto;
+  background-color: rgba(251,243,234,0.8);
+  border-radius: 7px;
+}
+
+.contactContainer h5 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactContent {
+  max-width: 100%;
+  margin: auto;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.contactContent p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: rgba(0,0,0,0.8);
+}
+
+.contactContent i {
+  font-size: 20px;
+  color: rgba(0,0,0,0.5);
+}
+
+.quoteContainer {
+  text-align: center;
+  width: 9999px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.quoteContainer h3 {
+  margin: auto;
+  width: 700px;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+}
+
+.resume {
+  font-family: "Poppins";
+  text-align: center;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.resume h6 {
+  text-decoration: underline;
+}
+
+.faceshotContainer {
+  text-align: center;
+}
+
+.faceshotContainer img {
+  border-radius: 6px;
+  width: 50%;
+}
+
+#projectHeadIMG {
+  width: 40%;
+}
+
+.projectContainer {
+  text-align: center;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.projectContainer h5 {
+  font-weight: bold;
+  color: rgba(0,0,0,0.8);
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.projectContainer p {
+  font-style: italic;
+  font-weight: 15px;
+;  color: rgba(0,0,0,0.6)
+}
+.projectContainer img {
+  width: 100%;
+  border-radius: 4px;
+}
+#projectInfo {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+#projectInfo h6 {
+  font-size:22px;
+  border-bottom-style:solid;
+  border-width:1.5px;
+  border-color:rgb(0,192,255);
+  padding-bottom:8px;
+}
+#projectInfo p {
+  font-size: 15px;
+}
+#projectInfo span {
+  color: rgb(0,192,255);
+  font-size: 20px;
+  margin:5px;
+}
+#projectLink:hover {
+  font-weight:bold;
+}
+
+#projectImageColumn {
+  padding: 20px;
+  padding-left: 50px;
+}
+#projectImageColumn img {
+  width: 85%;
+  max-width: 100%;
+  padding: 10px;
+}
+.footerContainer {
+  width: 99999px;
+  max-width: 100%;
+  padding: 2px;
+  padding-left: 15px;
+  background-color: rgba(251,243,234,0.8);
+}
+
+.footerContainer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12.5px;
+  color: rgba(158,158,158);
+}
+
+.footerContainer i {
+  color: rgba(0,0,0,0.4);
+  font-size: 14px;
+}
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 350px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.parallax img {
+  width: 1500px;
+  height: 846px;
+}
+
+#contactParallax {
+  min-height: 320px;
+}
+
+#contactRow {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-bottom:0px;
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: rgb(0,192,255);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#contactRow i {
+  color: rgba(0,0,0,0.3);
+  font-size: 30px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #contactRow {
+    margin:0px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .headContainer {
+    margin-top: 70px;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+  .parallax img {
+    width: 500%;
+  }
+  .headContainer {
+    padding-right: 10px;
+  }
+  .resume {
+    margin-top: 10px;
+  }
+  #projectHead {
+    margin-top: 70px;
+  }
+  #projectHeadIMG {
+    width: 240%;
+  }
+  #projectImageColumn {
+    padding: 0px;
+  }
+  #projectImageColumn img {
+    width: 100%;
+    padding: 0px;
+  }
+  .faceshotContainer img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .headContainer h4 {
+    font-size: 35px;
+  }
+  nav ul a,
+  nav .brand-logo {
+    font-size: 13px;
+  }
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
