@@ -120,6 +120,25 @@ p {
   font-size: 20px;
   color: rgba(0,0,0,0.5);
 }
+::placeholder {
+  color: rgba(158,158,158,0.6);
+  font-size: 15px;
+}
+#contactSend {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0,192,255);
+  background-color: rgba(0,0,0,0);
+  border-style: none;
+  border-width: 0.5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 5px;
+  cursor:pointer;
+}
+#contactSend:hover {
+  font-weight: bold;
+}
 
 .quoteContainer {
   text-align: center;
